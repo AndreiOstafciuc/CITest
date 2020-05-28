@@ -13,6 +13,6 @@ public class TestFeature {
     public init() { }
 
     public func loadFeature(completion: () -> Void) {
-//        completion()
+        completion()
     }
 }
