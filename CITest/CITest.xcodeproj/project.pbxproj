@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4893C616247FF21000CC4442 /* CI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893C615247FF21000CC4442 /* CI.swift */; };
-		4893C618247FF21000CC4442 /* CITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489D880F247FEAF600EC5845 /* CITest.framework */; };
 		489D8819247FEAF600EC5845 /* CITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489D880F247FEAF600EC5845 /* CITest.framework */; };
 		489D881E247FEAF600EC5845 /* CITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D881D247FEAF600EC5845 /* CITestTests.swift */; };
 		489D8820247FEAF600EC5845 /* CITest.h in Headers */ = {isa = PBXBuildFile; fileRef = 489D8812247FEAF600EC5845 /* CITest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,13 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4893C619247FF21000CC4442 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 489D8806247FEAF600EC5845 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 489D880E247FEAF600EC5845;
-			remoteInfo = CITest;
-		};
 		489D881A247FEAF600EC5845 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 489D8806247FEAF600EC5845 /* Project object */;
@@ -33,9 +24,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4893C613247FF21000CC4442 /* CI.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CI.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4893C615247FF21000CC4442 /* CI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CI.swift; sourceTree = "<group>"; };
-		4893C617247FF21000CC4442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489D880F247FEAF600EC5845 /* CITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		489D8812247FEAF600EC5845 /* CITest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CITest.h; sourceTree = "<group>"; };
 		489D8813247FEAF600EC5845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,14 +34,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4893C610247FF21000CC4442 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4893C618247FF21000CC4442 /* CITest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		489D880C247FEAF600EC5845 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,21 +52,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4893C614247FF21000CC4442 /* CI */ = {
-			isa = PBXGroup;
-			children = (
-				4893C615247FF21000CC4442 /* CI.swift */,
-				4893C617247FF21000CC4442 /* Info.plist */,
-			);
-			path = CI;
-			sourceTree = "<group>";
-		};
 		489D8805247FEAF600EC5845 = {
 			isa = PBXGroup;
 			children = (
 				489D8811247FEAF600EC5845 /* CITest */,
 				489D881C247FEAF600EC5845 /* CITestTests */,
-				4893C614247FF21000CC4442 /* CI */,
 				489D8810247FEAF600EC5845 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +66,6 @@
 			children = (
 				489D880F247FEAF600EC5845 /* CITest.framework */,
 				489D8818247FEAF600EC5845 /* CITestTests.xctest */,
-				4893C613247FF21000CC4442 /* CI.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,24 +111,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4893C612247FF21000CC4442 /* CI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4893C61D247FF21000CC4442 /* Build configuration list for PBXNativeTarget "CI" */;
-			buildPhases = (
-				4893C60F247FF21000CC4442 /* Sources */,
-				4893C610247FF21000CC4442 /* Frameworks */,
-				4893C611247FF21000CC4442 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4893C61A247FF21000CC4442 /* PBXTargetDependency */,
-			);
-			name = CI;
-			productName = CI;
-			productReference = 4893C613247FF21000CC4442 /* CI.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		489D880E247FEAF600EC5845 /* CITest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489D8823247FEAF600EC5845 /* Build configuration list for PBXNativeTarget "CITest" */;
@@ -206,9 +157,6 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Andrei Ostafciuc";
 				TargetAttributes = {
-					4893C612247FF21000CC4442 = {
-						CreatedOnToolsVersion = 11.5;
-					};
 					489D880E247FEAF600EC5845 = {
 						CreatedOnToolsVersion = 11.5;
 						LastSwiftMigration = 1150;
@@ -233,19 +181,11 @@
 			targets = (
 				489D880E247FEAF600EC5845 /* CITest */,
 				489D8817247FEAF600EC5845 /* CITestTests */,
-				4893C612247FF21000CC4442 /* CI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4893C611247FF21000CC4442 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		489D880D247FEAF600EC5845 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,14 +203,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4893C60F247FF21000CC4442 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4893C616247FF21000CC4442 /* CI.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		489D880B247FEAF600EC5845 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,11 +222,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4893C61A247FF21000CC4442 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 489D880E247FEAF600EC5845 /* CITest */;
-			targetProxy = 4893C619247FF21000CC4442 /* PBXContainerItemProxy */;
-		};
 		489D881B247FEAF600EC5845 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 489D880E247FEAF600EC5845 /* CITest */;
@@ -303,42 +230,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4893C61B247FF21000CC4442 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D4U9C7U829;
-				INFOPLIST_FILE = CI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.CI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		4893C61C247FF21000CC4442 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D4U9C7U829;
-				INFOPLIST_FILE = CI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.CI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		489D8821247FEAF600EC5845 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -550,15 +441,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4893C61D247FF21000CC4442 /* Build configuration list for PBXNativeTarget "CI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4893C61B247FF21000CC4442 /* Debug */,
-				4893C61C247FF21000CC4442 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		489D8809247FEAF600EC5845 /* Build configuration list for PBXProject "CITest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
